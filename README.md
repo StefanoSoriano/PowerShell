@@ -2,7 +2,7 @@
 
 # Comandos-let para la automatización
 
-## Incio
+### Inicio
 
 ###  Estableciendo el directorio donde se encuentran los archivos .csv y que serán cargados al Shell
 
@@ -94,5 +94,5 @@ if ( $unidadUSB_ADMIN -eq $unidadUSB_USER -or $unidadUSB_USERLag -ne $unidadUSB_
 ```powershell
 start-process $ruta\$name\Markdown.html
 ```
-## Fin del proceso de automatización.
+### Fin del proceso de automatización.
   
