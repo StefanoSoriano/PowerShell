@@ -1,6 +1,4 @@
-[![PowerShell](https://docs.microsoft.com/en-us/powershell/)
-
-# Comandos-let para la automatización
+# Comandos-let para la automatización [PowerShell](https://docs.microsoft.com/en-us/powershell/)
 #### Incio
 
 ###  Estableciendo el directorio donde se encuentran los archivos .csv y que serán cargados al Shell
