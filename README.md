@@ -1,3 +1,4 @@
+[![PowerShell](https://docs.microsoft.com/en-us/powershell/)
 
 # Comandos-let para la automatización
 #### Incio
@@ -74,7 +75,7 @@ $unidadUSB_USERLag = $unidadPsLag.Replace(":","")
 ```
 
 ###  Creando un flujo para el contraste de nombres del pendrive, con el objetivo de cambiar el nombre del pendrive actual del usuario, al nombre anterior del pendrive; siempre y cuando, el nombre fuera similar al del pendrive del administrador o diferente del pendrive anterior. 
-###  De lo contrario se eliminarán algunos archivos y se copiarán otros, ya sea en un directorio dentro de la unidad USB del usuario, o en un directorio en la nube.
+###  De lo contrario se eliminarán algunos archivos y se copiarán otros, ya sea en un directorio dentro de la unidad USB del usuario o, en un directorio en la nube.
 
 ```powershell
 if ( $unidadUSB_ADMIN -eq $unidadUSB_USER -or $unidadUSB_USERLag -ne $unidadUSB_USER) {
