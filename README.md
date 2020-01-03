@@ -1,5 +1,5 @@
 
-## Comandos-let para la automatización
+# Comandos-let para la automatización
 #### Incio
 
 ###  Estableciendo el directorio donde se encuentran los archivos .csv y que serán cargados al Shell
@@ -73,7 +73,8 @@ $unidadUSB_USER = $unidadUSB_USER.Replace(":","")
 $unidadUSB_USERLag = $unidadPsLag.Replace(":","")
 ```
 
-###  Creando un flujo para el contraste de nombres del pendrive, con el objetivo de cambiar el nombre del pendrive actual del usuario, al nombre anterior del pendrive; siempre y cuando, el nombre fuera similar al del pendrive del administrador o diferente del pendrive anterior. De lo contrario se eliminarán algunos archivos y se copiarán otros (reportes), ya sea, en un directorio dentro de la unidad USB del usuario o en un directorio en la nube.
+###  Creando un flujo para el contraste de nombres del pendrive, con el objetivo de cambiar el nombre del pendrive actual del usuario, al nombre anterior del pendrive; siempre y cuando, el nombre fuera similar al del pendrive del administrador o diferente del pendrive anterior. 
+###  De lo contrario se eliminarán algunos archivos y se copiarán otros, ya sea en un directorio dentro de la unidad USB del usuario, o en un directorio en la nube.
 
 ```powershell
 if ( $unidadUSB_ADMIN -eq $unidadUSB_USER -or $unidadUSB_USERLag -ne $unidadUSB_USER) {
@@ -91,5 +92,5 @@ if ( $unidadUSB_ADMIN -eq $unidadUSB_USER -or $unidadUSB_USERLag -ne $unidadUSB_
 ```powershell
 start-process $ruta\$name\Markdown.html
 ```
-#### Fin del proceso de automatización
+#### Fin del proceso de automatización.
   
